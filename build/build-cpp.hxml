@@ -1,0 +1,13 @@
+-cp src
+-cp ../kite/src
+-main Main
+-lib arguable
+-lib hscript
+-D hscriptPos
+-dce full
+
+# HxCpp specific
+-cpp bin/windows
+-lib hxcpp 
+#-D static_link
+-D hxcpp_static_std

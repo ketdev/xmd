@@ -1,0 +1,12 @@
+-cp src
+-cp ../kite/src
+-main Main
+-lib arguable
+-lib hscript
+-D hscriptPos
+-dce full
+
+# NodeJS specific
+-js bin/web/xmd.js
+-lib hxnodejs
+-D js-es5

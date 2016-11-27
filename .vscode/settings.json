@@ -1,0 +1,6 @@
+{
+    "haxe.displayConfigurations": [ 
+        ["build/build-cpp.hxml"],
+        ["build/build-js.hxml"]
+    ]
+}
